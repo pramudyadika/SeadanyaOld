@@ -6,5 +6,4 @@ Ketua Kelompok : Pramudya Kusuma H   (20/460558/TK/51147)<br/>
 Anggota 1 : Alfath Nuurlathif S      (20/460538/TK/51127)<br/>
 Anggota 2 : Rahmiyatul Hasanah YE    (20/460561/TK/51150)
 
-Rahmiyatul Hasanah YE 20/460561/TK/51150<br/>
 
