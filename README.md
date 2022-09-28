@@ -17,3 +17,6 @@ Anggota 2 : Rahmiyatul Hasanah YE - 20/460561/TK/51150 <br/>
 
 ## Class Diagram <br/>
 ![](images/classDiagram.png) <br/>
+
+## ERD <br/>
+![](images/ERD.png) <br/>
