@@ -10,7 +10,6 @@ Anggota 2 : Rahmiyatul Hasanah YE - 20/460561/TK/51150 <br/>
 
 ## Use Case Diagram <br/>
 ![](images/useCaseDiagram.png) <br/>
->>>>>>> bcd12dacc62a085fc54dbaf6138329c77abaa5dc
 
 ## Activity Diagram <br/>
 ![](images/activityDiagram.png) <br/>
@@ -19,4 +18,5 @@ Anggota 2 : Rahmiyatul Hasanah YE - 20/460561/TK/51150 <br/>
 ![](images/classDiagram.png) <br/>
 
 ## ERD <br/>
-![](images/ERD.png) <br/>
+![ERD](https://user-images.githubusercontent.com/93606503/192826456-1c7d2152-adc2-4dca-9713-6a6d597443de.jpg)
+
