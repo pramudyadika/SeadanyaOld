@@ -16,10 +16,13 @@ namespace Seadanya_testing.ui_ux
         {
             InitializeComponent();
         }
+<<<<<<< Updated upstream
 
         private void panelBody_Paint(object sender, PaintEventArgs e)
         {
 
         }
+=======
+>>>>>>> Stashed changes
     }
 }

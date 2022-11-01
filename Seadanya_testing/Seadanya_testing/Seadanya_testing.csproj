@@ -33,6 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+<<<<<<< Updated upstream
     <Reference Include="Bunifu.Licensing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=f89b4760ba7dcb6b" />
     <Reference Include="Bunifu.UI.WinForms.1.5.3">
       <HintPath>E:\UGM\Kuliah\Semester 5\Junpro\BunifuCrackV5-main\Bunifu.UI.WinForms.1.5.3.dll</HintPath>
@@ -40,6 +41,11 @@
     <Reference Include="Bunifu.UI.WinForms.BunifuButton">
       <HintPath>E:\UGM\Kuliah\Semester 5\Junpro\BunifuCrackV5-main\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
     </Reference>
+=======
+    <Reference Include="Bunifu.UI.WinForms.1.5.3">
+      <HintPath>E:\UGM\Kuliah\Semester 5\Junpro\BunifuCrackV5-main\Bunifu.UI.WinForms.1.5.3.dll</HintPath>
+    </Reference>
+>>>>>>> Stashed changes
     <Reference Include="Bunifu.UI.WinForms.BunifuTextBox">
       <HintPath>E:\UGM\Kuliah\Semester 5\Junpro\BunifuCrackV5-main\Bunifu.UI.WinForms.BunifuTextBox.dll</HintPath>
     </Reference>
@@ -75,9 +81,12 @@
     <Compile Include="ui-ux\homePage.Designer.cs">
       <DependentUpon>homePage.cs</DependentUpon>
     </Compile>
+<<<<<<< Updated upstream
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+=======
+>>>>>>> Stashed changes
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

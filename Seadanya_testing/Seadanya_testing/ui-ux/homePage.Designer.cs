@@ -34,6 +34,7 @@
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties2 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties3 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties4 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+<<<<<<< Updated upstream
             this.panelNavBar = new System.Windows.Forms.Panel();
             this.pbLogo = new System.Windows.Forms.PictureBox();
             this.panelBody = new System.Windows.Forms.Panel();
@@ -101,6 +102,58 @@
             this.panelBody.TabIndex = 1;
             this.panelBody.Paint += new System.Windows.Forms.PaintEventHandler(this.panelBody_Paint);
             // 
+=======
+            this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.panelNavBar = new System.Windows.Forms.Panel();
+            this.btnLogin = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.pictureBoxLogo = new System.Windows.Forms.PictureBox();
+            this.panelBody = new System.Windows.Forms.Panel();
+            this.panelMenu = new System.Windows.Forms.Panel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxMenu1 = new System.Windows.Forms.PictureBox();
+            this.lblMenuCTA = new System.Windows.Forms.Label();
+            this.panelSearchTags = new System.Windows.Forms.Panel();
+            this.btnMenu6 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.btnMenu5 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.btnMenu7 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.btnMenu4 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.btnMenu3 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.btnMenu2 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.btnMenu1 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.txtBoxSearchBar = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.panelHeaderDesc = new System.Windows.Forms.Panel();
+            this.lblDesc = new System.Windows.Forms.Label();
+            this.lblHeader = new System.Windows.Forms.Label();
+            this.panelNavBar.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).BeginInit();
+            this.panelBody.SuspendLayout();
+            this.panelMenu.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMenu1)).BeginInit();
+            this.panelSearchTags.SuspendLayout();
+            this.panelHeaderDesc.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // bunifuElipse1
+            // 
+            this.bunifuElipse1.ElipseRadius = 5;
+            this.bunifuElipse1.TargetControl = this;
+            // 
+            // panelNavBar
+            // 
+            this.panelNavBar.Controls.Add(this.btnLogin);
+            this.panelNavBar.Controls.Add(this.pictureBoxLogo);
+            this.panelNavBar.Location = new System.Drawing.Point(12, 12);
+            this.panelNavBar.Name = "panelNavBar";
+            this.panelNavBar.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
+            this.panelNavBar.Size = new System.Drawing.Size(1038, 70);
+            this.panelNavBar.TabIndex = 0;
+            // 
+>>>>>>> Stashed changes
             // btnLogin
             // 
             this.btnLogin.ActiveBorderThickness = 1;
@@ -108,17 +161,26 @@
             this.btnLogin.ActiveFillColor = System.Drawing.Color.Transparent;
             this.btnLogin.ActiveForecolor = System.Drawing.Color.Black;
             this.btnLogin.ActiveLineColor = System.Drawing.Color.Transparent;
+<<<<<<< Updated upstream
             this.btnLogin.BackColor = System.Drawing.Color.Transparent;
             this.btnLogin.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnLogin.BackgroundImage")));
             this.btnLogin.ButtonText = "Login";
             this.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnLogin.Font = new System.Drawing.Font("Century Gothic", 10F);
+=======
+            this.btnLogin.BackColor = System.Drawing.Color.White;
+            this.btnLogin.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnLogin.BackgroundImage")));
+            this.btnLogin.ButtonText = "Login";
+            this.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnLogin.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+>>>>>>> Stashed changes
             this.btnLogin.ForeColor = System.Drawing.Color.Black;
             this.btnLogin.IdleBorderThickness = 1;
             this.btnLogin.IdleCornerRadius = 20;
             this.btnLogin.IdleFillColor = System.Drawing.Color.Transparent;
             this.btnLogin.IdleForecolor = System.Drawing.Color.Black;
             this.btnLogin.IdleLineColor = System.Drawing.Color.Transparent;
+<<<<<<< Updated upstream
             this.btnLogin.Location = new System.Drawing.Point(874, 0);
             this.btnLogin.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnLogin.Name = "btnLogin";
@@ -163,6 +225,114 @@
             this.panelSearchTags.Controls.Add(this.btnMenu5);
             this.panelSearchTags.Controls.Add(this.btnMenu4);
             this.panelSearchTags.Controls.Add(this.bunifuThinButton24);
+=======
+            this.btnLogin.Location = new System.Drawing.Point(873, 0);
+            this.btnLogin.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(151, 70);
+            this.btnLogin.TabIndex = 1;
+            this.btnLogin.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pictureBoxLogo
+            // 
+            this.pictureBoxLogo.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxLogo.Image")));
+            this.pictureBoxLogo.Location = new System.Drawing.Point(13, 0);
+            this.pictureBoxLogo.Name = "pictureBoxLogo";
+            this.pictureBoxLogo.Size = new System.Drawing.Size(162, 70);
+            this.pictureBoxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxLogo.TabIndex = 0;
+            this.pictureBoxLogo.TabStop = false;
+            // 
+            // panelBody
+            // 
+            this.panelBody.Controls.Add(this.panelMenu);
+            this.panelBody.Controls.Add(this.panelSearchTags);
+            this.panelBody.Controls.Add(this.panelHeaderDesc);
+            this.panelBody.Location = new System.Drawing.Point(12, 101);
+            this.panelBody.Name = "panelBody";
+            this.panelBody.Padding = new System.Windows.Forms.Padding(10);
+            this.panelBody.Size = new System.Drawing.Size(1038, 608);
+            this.panelBody.TabIndex = 1;
+            // 
+            // panelMenu
+            // 
+            this.panelMenu.BackColor = System.Drawing.Color.Transparent;
+            this.panelMenu.Controls.Add(this.pictureBox3);
+            this.panelMenu.Controls.Add(this.pictureBox2);
+            this.panelMenu.Controls.Add(this.pictureBox1);
+            this.panelMenu.Controls.Add(this.pictureBoxMenu1);
+            this.panelMenu.Controls.Add(this.lblMenuCTA);
+            this.panelMenu.Location = new System.Drawing.Point(13, 307);
+            this.panelMenu.Margin = new System.Windows.Forms.Padding(0, 0, 0, 5);
+            this.panelMenu.Name = "panelMenu";
+            this.panelMenu.Padding = new System.Windows.Forms.Padding(5, 3, 5, 22);
+            this.panelMenu.Size = new System.Drawing.Size(1012, 286);
+            this.panelMenu.TabIndex = 2;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(759, 34);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(7, 3, 7, 3);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(231, 196);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 11;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(514, 34);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(7, 3, 7, 3);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(231, 196);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 10;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(269, 34);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(7, 3, 7, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(231, 196);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 9;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBoxMenu1
+            // 
+            this.pictureBoxMenu1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxMenu1.Image")));
+            this.pictureBoxMenu1.Location = new System.Drawing.Point(24, 34);
+            this.pictureBoxMenu1.Margin = new System.Windows.Forms.Padding(7, 3, 7, 3);
+            this.pictureBoxMenu1.Name = "pictureBoxMenu1";
+            this.pictureBoxMenu1.Size = new System.Drawing.Size(231, 196);
+            this.pictureBoxMenu1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxMenu1.TabIndex = 8;
+            this.pictureBoxMenu1.TabStop = false;
+            // 
+            // lblMenuCTA
+            // 
+            this.lblMenuCTA.AutoSize = true;
+            this.lblMenuCTA.Font = new System.Drawing.Font("Century Gothic", 12F);
+            this.lblMenuCTA.ForeColor = System.Drawing.Color.Black;
+            this.lblMenuCTA.Location = new System.Drawing.Point(329, 3);
+            this.lblMenuCTA.Margin = new System.Windows.Forms.Padding(3, 0, 3, 5);
+            this.lblMenuCTA.Name = "lblMenuCTA";
+            this.lblMenuCTA.Size = new System.Drawing.Size(391, 23);
+            this.lblMenuCTA.TabIndex = 7;
+            this.lblMenuCTA.Text = "Temukan resep rekomendasi minggu ini";
+            // 
+            // panelSearchTags
+            // 
+            this.panelSearchTags.BackColor = System.Drawing.Color.Transparent;
+            this.panelSearchTags.Controls.Add(this.btnMenu6);
+            this.panelSearchTags.Controls.Add(this.btnMenu5);
+            this.panelSearchTags.Controls.Add(this.btnMenu7);
+            this.panelSearchTags.Controls.Add(this.btnMenu4);
+>>>>>>> Stashed changes
             this.panelSearchTags.Controls.Add(this.btnMenu3);
             this.panelSearchTags.Controls.Add(this.btnMenu2);
             this.panelSearchTags.Controls.Add(this.btnMenu1);
@@ -174,6 +344,7 @@
             this.panelSearchTags.Size = new System.Drawing.Size(1012, 107);
             this.panelSearchTags.TabIndex = 1;
             // 
+<<<<<<< Updated upstream
             // panelMenu
             // 
             this.panelMenu.Controls.Add(this.pictureBoxMenu4);
@@ -186,6 +357,182 @@
             this.panelMenu.Padding = new System.Windows.Forms.Padding(5, 3, 5, 22);
             this.panelMenu.Size = new System.Drawing.Size(1012, 273);
             this.panelMenu.TabIndex = 2;
+=======
+            // btnMenu6
+            // 
+            this.btnMenu6.ActiveBorderThickness = 1;
+            this.btnMenu6.ActiveCornerRadius = 20;
+            this.btnMenu6.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(112)))), ((int)(((byte)(80)))));
+            this.btnMenu6.ActiveForecolor = System.Drawing.Color.White;
+            this.btnMenu6.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(112)))), ((int)(((byte)(80)))));
+            this.btnMenu6.BackColor = System.Drawing.Color.Transparent;
+            this.btnMenu6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnMenu6.BackgroundImage")));
+            this.btnMenu6.ButtonText = "Ikan";
+            this.btnMenu6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMenu6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMenu6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(112)))), ((int)(((byte)(80)))));
+            this.btnMenu6.IdleBorderThickness = 1;
+            this.btnMenu6.IdleCornerRadius = 20;
+            this.btnMenu6.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(112)))), ((int)(((byte)(80)))));
+            this.btnMenu6.IdleForecolor = System.Drawing.Color.White;
+            this.btnMenu6.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(112)))), ((int)(((byte)(80)))));
+            this.btnMenu6.Location = new System.Drawing.Point(705, 63);
+            this.btnMenu6.Margin = new System.Windows.Forms.Padding(5);
+            this.btnMenu6.Name = "btnMenu6";
+            this.btnMenu6.Size = new System.Drawing.Size(109, 41);
+            this.btnMenu6.TabIndex = 6;
+            this.btnMenu6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btnMenu5
+            // 
+            this.btnMenu5.ActiveBorderThickness = 1;
+            this.btnMenu5.ActiveCornerRadius = 20;
+            this.btnMenu5.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(112)))), ((int)(((byte)(80)))));
+            this.btnMenu5.ActiveForecolor = System.Drawing.Color.White;
+            this.btnMenu5.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(112)))), ((int)(((byte)(80)))));
+            this.btnMenu5.BackColor = System.Drawing.Color.Transparent;
+            this.btnMenu5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnMenu5.BackgroundImage")));
+            this.btnMenu5.ButtonText = "Nasi";
+            this.btnMenu5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMenu5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMenu5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(112)))), ((int)(((byte)(80)))));
+            this.btnMenu5.IdleBorderThickness = 1;
+            this.btnMenu5.IdleCornerRadius = 20;
+            this.btnMenu5.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(112)))), ((int)(((byte)(80)))));
+            this.btnMenu5.IdleForecolor = System.Drawing.Color.White;
+            this.btnMenu5.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(112)))), ((int)(((byte)(80)))));
+            this.btnMenu5.Location = new System.Drawing.Point(586, 63);
+            this.btnMenu5.Margin = new System.Windows.Forms.Padding(5);
+            this.btnMenu5.Name = "btnMenu5";
+            this.btnMenu5.Size = new System.Drawing.Size(109, 41);
+            this.btnMenu5.TabIndex = 5;
+            this.btnMenu5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btnMenu7
+            // 
+            this.btnMenu7.ActiveBorderThickness = 1;
+            this.btnMenu7.ActiveCornerRadius = 20;
+            this.btnMenu7.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(112)))), ((int)(((byte)(80)))));
+            this.btnMenu7.ActiveForecolor = System.Drawing.Color.White;
+            this.btnMenu7.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(112)))), ((int)(((byte)(80)))));
+            this.btnMenu7.BackColor = System.Drawing.Color.Transparent;
+            this.btnMenu7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnMenu7.BackgroundImage")));
+            this.btnMenu7.ButtonText = "Tempe";
+            this.btnMenu7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMenu7.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMenu7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(112)))), ((int)(((byte)(80)))));
+            this.btnMenu7.IdleBorderThickness = 1;
+            this.btnMenu7.IdleCornerRadius = 20;
+            this.btnMenu7.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(112)))), ((int)(((byte)(80)))));
+            this.btnMenu7.IdleForecolor = System.Drawing.Color.White;
+            this.btnMenu7.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(112)))), ((int)(((byte)(80)))));
+            this.btnMenu7.Location = new System.Drawing.Point(824, 63);
+            this.btnMenu7.Margin = new System.Windows.Forms.Padding(5);
+            this.btnMenu7.Name = "btnMenu7";
+            this.btnMenu7.Size = new System.Drawing.Size(109, 41);
+            this.btnMenu7.TabIndex = 5;
+            this.btnMenu7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btnMenu4
+            // 
+            this.btnMenu4.ActiveBorderThickness = 1;
+            this.btnMenu4.ActiveCornerRadius = 20;
+            this.btnMenu4.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(112)))), ((int)(((byte)(80)))));
+            this.btnMenu4.ActiveForecolor = System.Drawing.Color.White;
+            this.btnMenu4.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(112)))), ((int)(((byte)(80)))));
+            this.btnMenu4.BackColor = System.Drawing.Color.Transparent;
+            this.btnMenu4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnMenu4.BackgroundImage")));
+            this.btnMenu4.ButtonText = "Telur";
+            this.btnMenu4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMenu4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMenu4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(112)))), ((int)(((byte)(80)))));
+            this.btnMenu4.IdleBorderThickness = 1;
+            this.btnMenu4.IdleCornerRadius = 20;
+            this.btnMenu4.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(112)))), ((int)(((byte)(80)))));
+            this.btnMenu4.IdleForecolor = System.Drawing.Color.White;
+            this.btnMenu4.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(112)))), ((int)(((byte)(80)))));
+            this.btnMenu4.Location = new System.Drawing.Point(467, 63);
+            this.btnMenu4.Margin = new System.Windows.Forms.Padding(5);
+            this.btnMenu4.Name = "btnMenu4";
+            this.btnMenu4.Size = new System.Drawing.Size(109, 41);
+            this.btnMenu4.TabIndex = 4;
+            this.btnMenu4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btnMenu3
+            // 
+            this.btnMenu3.ActiveBorderThickness = 1;
+            this.btnMenu3.ActiveCornerRadius = 20;
+            this.btnMenu3.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(112)))), ((int)(((byte)(80)))));
+            this.btnMenu3.ActiveForecolor = System.Drawing.Color.White;
+            this.btnMenu3.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(112)))), ((int)(((byte)(80)))));
+            this.btnMenu3.BackColor = System.Drawing.Color.Transparent;
+            this.btnMenu3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnMenu3.BackgroundImage")));
+            this.btnMenu3.ButtonText = "Sayur";
+            this.btnMenu3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMenu3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMenu3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(112)))), ((int)(((byte)(80)))));
+            this.btnMenu3.IdleBorderThickness = 1;
+            this.btnMenu3.IdleCornerRadius = 20;
+            this.btnMenu3.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(112)))), ((int)(((byte)(80)))));
+            this.btnMenu3.IdleForecolor = System.Drawing.Color.White;
+            this.btnMenu3.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(112)))), ((int)(((byte)(80)))));
+            this.btnMenu3.Location = new System.Drawing.Point(348, 63);
+            this.btnMenu3.Margin = new System.Windows.Forms.Padding(5);
+            this.btnMenu3.Name = "btnMenu3";
+            this.btnMenu3.Size = new System.Drawing.Size(109, 41);
+            this.btnMenu3.TabIndex = 3;
+            this.btnMenu3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btnMenu2
+            // 
+            this.btnMenu2.ActiveBorderThickness = 1;
+            this.btnMenu2.ActiveCornerRadius = 20;
+            this.btnMenu2.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(112)))), ((int)(((byte)(80)))));
+            this.btnMenu2.ActiveForecolor = System.Drawing.Color.White;
+            this.btnMenu2.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(112)))), ((int)(((byte)(80)))));
+            this.btnMenu2.BackColor = System.Drawing.Color.Transparent;
+            this.btnMenu2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnMenu2.BackgroundImage")));
+            this.btnMenu2.ButtonText = "Ayam";
+            this.btnMenu2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMenu2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMenu2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(112)))), ((int)(((byte)(80)))));
+            this.btnMenu2.IdleBorderThickness = 1;
+            this.btnMenu2.IdleCornerRadius = 20;
+            this.btnMenu2.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(112)))), ((int)(((byte)(80)))));
+            this.btnMenu2.IdleForecolor = System.Drawing.Color.White;
+            this.btnMenu2.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(112)))), ((int)(((byte)(80)))));
+            this.btnMenu2.Location = new System.Drawing.Point(229, 63);
+            this.btnMenu2.Margin = new System.Windows.Forms.Padding(5);
+            this.btnMenu2.Name = "btnMenu2";
+            this.btnMenu2.Size = new System.Drawing.Size(109, 41);
+            this.btnMenu2.TabIndex = 2;
+            this.btnMenu2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btnMenu1
+            // 
+            this.btnMenu1.ActiveBorderThickness = 1;
+            this.btnMenu1.ActiveCornerRadius = 20;
+            this.btnMenu1.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(112)))), ((int)(((byte)(80)))));
+            this.btnMenu1.ActiveForecolor = System.Drawing.Color.White;
+            this.btnMenu1.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(112)))), ((int)(((byte)(80)))));
+            this.btnMenu1.BackColor = System.Drawing.Color.Transparent;
+            this.btnMenu1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnMenu1.BackgroundImage")));
+            this.btnMenu1.ButtonText = "Tempe";
+            this.btnMenu1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMenu1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMenu1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(112)))), ((int)(((byte)(80)))));
+            this.btnMenu1.IdleBorderThickness = 1;
+            this.btnMenu1.IdleCornerRadius = 20;
+            this.btnMenu1.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(112)))), ((int)(((byte)(80)))));
+            this.btnMenu1.IdleForecolor = System.Drawing.Color.White;
+            this.btnMenu1.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(112)))), ((int)(((byte)(80)))));
+            this.btnMenu1.Location = new System.Drawing.Point(110, 63);
+            this.btnMenu1.Margin = new System.Windows.Forms.Padding(5);
+            this.btnMenu1.Name = "btnMenu1";
+            this.btnMenu1.Size = new System.Drawing.Size(109, 41);
+            this.btnMenu1.TabIndex = 1;
+            this.btnMenu1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+>>>>>>> Stashed changes
             // 
             // txtBoxSearchBar
             // 
@@ -263,6 +610,7 @@
             this.txtBoxSearchBar.UseSystemPasswordChar = false;
             this.txtBoxSearchBar.WordWrap = true;
             // 
+<<<<<<< Updated upstream
             // btnMenu1
             // 
             this.btnMenu1.ActiveBorderThickness = 1;
@@ -497,17 +845,58 @@
             // 
             this.bunifuElipse1.ElipseRadius = 5;
             this.bunifuElipse1.TargetControl = this;
+=======
+            // panelHeaderDesc
+            // 
+            this.panelHeaderDesc.BackColor = System.Drawing.Color.Transparent;
+            this.panelHeaderDesc.Controls.Add(this.lblDesc);
+            this.panelHeaderDesc.Controls.Add(this.lblHeader);
+            this.panelHeaderDesc.Location = new System.Drawing.Point(13, 17);
+            this.panelHeaderDesc.Margin = new System.Windows.Forms.Padding(0, 0, 0, 30);
+            this.panelHeaderDesc.Name = "panelHeaderDesc";
+            this.panelHeaderDesc.Padding = new System.Windows.Forms.Padding(0, 3, 0, 3);
+            this.panelHeaderDesc.Size = new System.Drawing.Size(1012, 123);
+            this.panelHeaderDesc.TabIndex = 0;
+            // 
+            // lblDesc
+            // 
+            this.lblDesc.AutoSize = true;
+            this.lblDesc.Font = new System.Drawing.Font("Century Gothic", 20F);
+            this.lblDesc.ForeColor = System.Drawing.Color.Black;
+            this.lblDesc.Location = new System.Drawing.Point(242, 71);
+            this.lblDesc.Name = "lblDesc";
+            this.lblDesc.Size = new System.Drawing.Size(555, 40);
+            this.lblDesc.TabIndex = 1;
+            this.lblDesc.Text = "Deskripsi dari kalimat menariknya";
+            // 
+            // lblHeader
+            // 
+            this.lblHeader.AutoSize = true;
+            this.lblHeader.Font = new System.Drawing.Font("Century Gothic", 28.2F, System.Drawing.FontStyle.Bold);
+            this.lblHeader.ForeColor = System.Drawing.Color.Black;
+            this.lblHeader.Location = new System.Drawing.Point(233, 3);
+            this.lblHeader.Margin = new System.Windows.Forms.Padding(0, 0, 0, 7);
+            this.lblHeader.Name = "lblHeader";
+            this.lblHeader.Size = new System.Drawing.Size(572, 56);
+            this.lblHeader.TabIndex = 0;
+            this.lblHeader.Text = "Kalimat header menarik";
+>>>>>>> Stashed changes
             // 
             // homePage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+<<<<<<< Updated upstream
             this.ClientSize = new System.Drawing.Size(1062, 721);
+=======
+            this.ClientSize = new System.Drawing.Size(1080, 768);
+>>>>>>> Stashed changes
             this.Controls.Add(this.panelBody);
             this.Controls.Add(this.panelNavBar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "homePage";
+<<<<<<< Updated upstream
             this.Text = "Form1";
             this.panelNavBar.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).EndInit();
@@ -521,12 +910,28 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMenu2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMenu3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMenu4)).EndInit();
+=======
+            this.Text = "Form 1";
+            this.panelNavBar.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).EndInit();
+            this.panelBody.ResumeLayout(false);
+            this.panelMenu.ResumeLayout(false);
+            this.panelMenu.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMenu1)).EndInit();
+            this.panelSearchTags.ResumeLayout(false);
+            this.panelHeaderDesc.ResumeLayout(false);
+            this.panelHeaderDesc.PerformLayout();
+>>>>>>> Stashed changes
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
+<<<<<<< Updated upstream
         private System.Windows.Forms.Panel panelNavBar;
         private System.Windows.Forms.PictureBox pbLogo;
         private System.Windows.Forms.Panel panelBody;
@@ -539,10 +944,27 @@
         private System.Windows.Forms.PictureBox pictureBoxMenu4;
         private System.Windows.Forms.PictureBox pictureBoxMenu3;
         private System.Windows.Forms.PictureBox pictureBoxMenu2;
+=======
+        private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
+        private System.Windows.Forms.Panel panelBody;
+        private System.Windows.Forms.Panel panelMenu;
+        private System.Windows.Forms.Panel panelSearchTags;
+        private Bunifu.UI.WinForms.BunifuTextBox txtBoxSearchBar;
+        private System.Windows.Forms.Panel panelHeaderDesc;
+        private System.Windows.Forms.Label lblDesc;
+        private System.Windows.Forms.Label lblHeader;
+        private System.Windows.Forms.Panel panelNavBar;
+        private Bunifu.Framework.UI.BunifuThinButton2 btnLogin;
+        private System.Windows.Forms.PictureBox pictureBoxLogo;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox1;
+>>>>>>> Stashed changes
         private System.Windows.Forms.PictureBox pictureBoxMenu1;
         private System.Windows.Forms.Label lblMenuCTA;
         private Bunifu.Framework.UI.BunifuThinButton2 btnMenu6;
         private Bunifu.Framework.UI.BunifuThinButton2 btnMenu5;
+<<<<<<< Updated upstream
         private Bunifu.Framework.UI.BunifuThinButton2 btnMenu4;
         private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton24;
         private Bunifu.Framework.UI.BunifuThinButton2 btnMenu3;
@@ -550,5 +972,12 @@
         private Bunifu.Framework.UI.BunifuThinButton2 btnMenu1;
         private Bunifu.UI.WinForms.BunifuTextBox txtBoxSearchBar;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
+=======
+        private Bunifu.Framework.UI.BunifuThinButton2 btnMenu7;
+        private Bunifu.Framework.UI.BunifuThinButton2 btnMenu4;
+        private Bunifu.Framework.UI.BunifuThinButton2 btnMenu3;
+        private Bunifu.Framework.UI.BunifuThinButton2 btnMenu2;
+        private Bunifu.Framework.UI.BunifuThinButton2 btnMenu1;
+>>>>>>> Stashed changes
     }
 }
